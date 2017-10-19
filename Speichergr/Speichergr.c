@@ -9,7 +9,7 @@
 #include <stdio.h>
 
 int main(void){
-
+	setbuf(stdout, NULL);
 	// Definiere verschiedene Variablen als Größen ihrer Datentypen in Bytes
 	short char_size =  sizeof(char);
 	short short_size = sizeof(short);

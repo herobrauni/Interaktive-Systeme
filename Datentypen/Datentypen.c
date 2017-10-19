@@ -7,6 +7,7 @@
 
 
 #include <stdio.h>
+
 int main(void) {
 	setbuf(stdout, NULL); // Damit die Eclipse-Konsole funktioniert
 	char buchstabe = 'x';
@@ -23,6 +24,6 @@ int main(void) {
 	printf("%o\n", kurze_zahl);
 	kurze_zahl = -100;
 	printf("Ausgabe von - 100: ");
-	printf("%d\n", kurze_zahl);
+	printf("%d\n", kurze_zahl);  //Fehler da unasigned short nur positiv sein kann
 	return 0;
 }
