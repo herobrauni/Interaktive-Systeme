@@ -1,6 +1,6 @@
 /*
  * Datentypen.c
- *
+ * Einschränkungen der Verschiedenen Datentypen
  *  Created on: 17 Oct 2017
  *      Author: brauni
  */
