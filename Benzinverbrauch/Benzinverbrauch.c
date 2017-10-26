@@ -21,6 +21,6 @@ int main(void){
 	// Berechnen von Verbrauch pro Strecke
 	verbrauch_strecke = verbrauch_100/100 * strecke;
 	// Ausgabe Verbrauch/Strecke
-	printf("Auf %fkm benötigt Ihr Auto: %f", strecke, verbrauch_strecke);
+	printf("Auf %.2fkm benötigt Ihr Auto: %.2f", strecke, verbrauch_strecke);
 	return 0;
 }
