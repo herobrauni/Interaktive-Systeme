@@ -9,13 +9,9 @@
 #include <math.h>
 int main(void){
 	setbuf(stdout, NULL);
-	float zahl = 0;
+	float f = 0;
 	printf("***Quadratwurzelrechner***\n\nBitte Geben Sie eine Zahl ein: ");
-	scanf("%f", &zahl);
-	if (zahl<0){
-		printf("Bitte gib eine positive Zahl ein.");
-		return 1;
-	}
-	printf("\nDie Quadratwurzel aus %f ist %f", zahl, sqrt(zahl)); //sqrt funktion für Quadratwurzel ziehen aus math.h
+	scanf("%f", &f);
+	(f>0)?printf("\nDie Quadratwurzel aus %f ist %f", f, sqrt(f)):printf("Bitte gib eine positive Zahl ein.");
 	return 0;
 }
