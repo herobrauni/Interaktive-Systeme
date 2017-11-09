@@ -10,14 +10,12 @@ int main(void){
 	setbuf(stdout, NULL);
 	int Wahl = 4;
 	int dez = 0;
-//	printf("***Darstellungsrechner***\n\n1 = Dezimal nach Oktal\n2 = Dezimal nach Hexadezimal\n0 = Programm beenden\n\nIhre Auswahl: ");
-//	scanf("%i", &Wahl);
 	while(Wahl>2 || Wahl<0){
 		printf("***Darstellungsrechner***\n\n1 = Dezimal nach Oktal\n2 = Dezimal nach Hexadezimal\n0 = Programm beenden\n\nIhre Auswahl: ");
 		scanf("%i", &Wahl);
 	}
 	if(Wahl==0){
-		return 0;
+		return 1;
 	}
 	else if(Wahl==1){
 		printf("\n--> Dezimal nach Oktal\n\n");
