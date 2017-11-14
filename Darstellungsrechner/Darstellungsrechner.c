@@ -6,6 +6,7 @@
  */
 
 #include <stdio.h>
+
 int main(void){
 	setbuf(stdout, NULL);
 	int Wahl = 4;
